@@ -1,0 +1,6 @@
+🔗 Giphy API:       https://developers.giphy.com/
+🔗 Promise on MDN:  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+🔗 Fetch on MDN:    https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+🔗 Async on MDN:    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+
+🎥 Giphy API Tutorial: https://www.youtube.com/watch?v=mj8_w11MvH8
