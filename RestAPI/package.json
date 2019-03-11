@@ -1,0 +1,14 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "Rest API tutorial",
+  "main": "js/main.js",
+  "scripts": {
+    "server": "json-server --watch backend/db.json"
+  },
+  "author": "Luka Zivanovic",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.14.2"
+  }
+}
