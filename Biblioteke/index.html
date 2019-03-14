@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Biblioteke</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.js"></script>
+
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div data-includeHTML="header.html"></div>
+
+    <script id="template" type="x-tmpl-mustache">
+      <div>
+        {{#name}}
+        Hello {{ name }} {{surname }}!
+        <a href="#">Sign out<a>
+        {{/name}}
+      </div>
+    </script>
+
+    <script id="template2" type="x-tmpl-mustache">
+      {{#musketeers}}
+      {{.}}:~:
+      {{/musketeers}}
+    </script>
+
+    <script id="template3" type="x-tmpl-mustache">
+      Hi {{#bold}} {{ name }}.{{/bold}}
+    </script>
+
+    <div id="content">
+      FontAwesome:
+      <i class="fas fa-frog fa-4x" style="color:red"></i>
+      <i class="fab fa-font-awesome" style="font-size: 20px;"></i>
+    </div>
+
+    <div data-includeHTML="footer.html"></div>
+  </body>
+</html>
