@@ -1,0 +1,76 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "RestAPI",
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "title": "ReactJS",
+      "authorId": 2
+    },
+    {
+      "id": 3,
+      "title": "VueJS",
+      "authorId": 3
+    },
+    {
+      "id": 4,
+      "title": "AngularJS",
+      "authorId": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "Prvi komentar!",
+      "postId": 1,
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "body": "2. komentar!",
+      "postId": 1,
+      "authorId": 2
+    },
+    {
+      "id": 3,
+      "body": "Drugi komentar!",
+      "postId": 2,
+      "authorId": 3
+    },
+    {
+      "id": 4,
+      "body": "Treci komentar!",
+      "postId": 4,
+      "authorId": 3
+    },
+    {
+      "id": 5,
+      "body": "Cetvrti komentar!",
+      "postId": 3,
+      "authorId": 2
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Luka",
+      "username": "luka13",
+      "password": "code2019"
+    },
+    {
+      "id": 2,
+      "name": "Milica",
+      "username": "milica",
+      "password": "babadeda"
+    },
+    {
+      "id": 3,
+      "name": "Djole",
+      "username": "tigric",
+      "password": "tigric12"
+    }
+  ]
+}
